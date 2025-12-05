@@ -31,6 +31,7 @@ Supported boards are:
 | Board                                        | Platform      | Framework   | Transports                               | Default meta file        |
 | -------------------------------------------- | ------------- | ----------- | ---------------------------------------- | ------------------------ |
 | `portenta_h7_m7`                             | `ststm32`     | `arduino`   | `serial` <br/> `wifi`                    | `colcon.meta`            |
+| `giga_r1_m7`                                 | `ststm32`     | `arduino`   | `serial` <br/> `wifi`                    | `colcon.meta`            |
 | `teensy41`                                   | `teensy`      | `arduino`   | `serial` <br/> `native_ethernet`         | `colcon.meta`            |
 | `teensy40`                                   | `teensy`      | `arduino`   | `serial`                                 | `colcon.meta`            |
 | `teensy36` <br/> `teensy35` <br/> `teensy31` | `teensy`      | `arduino`   | `serial`                                 | `colcon_lowmem.meta`     |
