@@ -117,7 +117,7 @@ def build_microros(*args, **kwargs):
     #######################################################
 
     # Add library
-    if (board == "portenta_h7_m7" or board == "nanorp2040connect" or board == "pico"):
+    if (board == "portenta_h7_m7" or board == "giga_r1_m7" or board == "nanorp2040connect" or board == "pico"):
         # Workaround for including the library in the linker group
         #   This solves a problem with duplicated symbols in Galactic
         global_env["_LIBFLAGS"] = "-Wl,--start-group " + global_env["_LIBFLAGS"] + " -l{} -Wl,--end-group".format(builder.library_name)
